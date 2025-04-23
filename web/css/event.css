@@ -1,0 +1,106 @@
+/* General page setup */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the page */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table headers */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table rows */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Styling for table on hover */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Style for the ViewStudent section */
+.vote {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the form (optional) */
+form {
+    padding: 20px;
+}
+input[type="text"]
+{
+    width: 15vw;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 10px 2px grey;
+    margin: 1em;
+}
+
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    margin-top: 1.5em;
+    width: 20vw;
+    height: 5vh;
+    box-shadow: 0px 10px 2px grey;
+}
+
+button:hover {
+    background-color: purple;
+}
+
+.btns{
+    background-color: blue;
+    color: white;
+    margin-top: 1.5em;
+    width: 5vw;
+    height: 5vh;
+    box-shadow: 0px 2px 3px grey;
+}
+#search{
+    width:4vw;
+}
+#m1{
+    border:0;
+    box-shadow: 0;
+}
